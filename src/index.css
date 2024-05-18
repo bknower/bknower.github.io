@@ -1,5 +1,6 @@
 @import "computer-modern/index.css";
-body {
+body,
+html {
   margin: 0;
   font-family: "CMU Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
@@ -8,6 +9,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   float: center;
+  width: 100%;
+  height: 100%;
+}
+body {
+  scrollbar-gutter: stable both-edges;
+}
+
+#root {
+  display: flex;
+  flex-grow: 1;
+  /* fle */
+  min-height: 100%;
 }
 
 code {
