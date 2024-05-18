@@ -1,0 +1,53 @@
+@import "computer-modern/index.css";
+body {
+  margin: 0;
+  font-family: "CMU Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  float: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.big-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.section-heading {
+  float: left;
+  text-decoration: underline;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+h2,
+h4 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
